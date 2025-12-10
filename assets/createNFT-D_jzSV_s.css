@@ -1,0 +1,1 @@
+@keyframes rotateScale{50%{transform:scale(3) rotate(180deg)}to{transform:scale(1) rotate(360deg)}}.t2{animation:rotateScale 5s ease-in-out infinite;transform-origin:center center}
