@@ -1,0 +1,1 @@
+import{H as t}from"./index-CAvx1_Kf.js";import{g as i}from"./writeContract-CwaviVDZ.js";async function n(n,a={}){const{chainId:c,...o}=a,r=n.getClient({chainId:c}),e=t(r,i,"getBlock");return{...await e(o),chainId:r.chain.id}}export{n as g};
