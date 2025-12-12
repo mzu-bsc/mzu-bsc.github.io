@@ -1,0 +1,1 @@
+import{H as t}from"./index-CLHvjnOI.js";import{g as i}from"./writeContract-Jw-22eMF.js";async function n(n,a={}){const{chainId:c,...o}=a,r=n.getClient({chainId:c}),e=t(r,i,"getBlock");return{...await e(o),chainId:r.chain.id}}export{n as g};
